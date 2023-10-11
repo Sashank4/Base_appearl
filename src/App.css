@@ -92,7 +92,7 @@ button{
   height: 50px;
   width: 70px;
   position: absolute;
-  left: 270px;
+  right: 50px;
   border: none;  
   border-radius: 50px;
   cursor: pointer;
@@ -109,7 +109,6 @@ button > img {
 input::placeholder {
   color: hsl(0, 36%, 70%);
   font-size: 14px;
- 
   font-family: 'Josefin Sans', sans-serif;
 }
 
