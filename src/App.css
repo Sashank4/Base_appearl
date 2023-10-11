@@ -118,3 +118,52 @@ input::placeholder {
   color: hsl(0, 93%, 68%);
 }
 
+@media only screen and (min-width:768px) {
+  .container{
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .container .right{
+    background-image: url(./assets/images/hero-desktop.jpg);
+    width: 80%;
+    height: 100vh;
+  }
+  .logo{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    width: 200px;
+  }
+
+  .container .left{
+    padding: 5rem;
+    background-image: url(./assets/images/bg-pattern-desktop.svg);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .container .left h1{
+    text-align: left ;
+    line-height: 3.5rem;
+    padding: 7rem 0rem 0rem 3rem;
+  }
+
+  .des{
+    align-items: left;
+    text-align: left;
+    padding: 30px 15rem 20px 3rem ;
+    padding-right: 15rem;
+  }
+
+  form {
+    align-items: left;
+    justify-content: flex-start;
+    padding: 8rem 15rem 0rem 3rem;
+    
+  }
+
+  button{
+    right : 60rem;
+  }
+}

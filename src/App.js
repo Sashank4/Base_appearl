@@ -10,7 +10,7 @@ function App() {
           <div className='container'>
 
             <div className='left'>
-              <h1><span className='regular'>WE'RE</span> COMING <br/> SOON</h1>
+              <h1><span className='regular'>WE'RE</span> <br/> COMING <br/> SOON</h1>
               <p className='des'>Hello fellow shopers! We're currently building our new fashion store. Add your Email below to stay 
               up-to-date with announcements and launching deals.</p>
               <form >
